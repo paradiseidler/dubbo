@@ -1037,7 +1037,7 @@ public abstract class AbstractConfig implements Serializable {
         return true;
     }
 
-    @Parameter(excluded = true, attribute = false)
+    @Parameter(excluded = true)
     public Boolean isDefault() {
         return isDefault;
     }
